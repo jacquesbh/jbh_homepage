@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * This file is part of Jbh_Homepage for Magento.
+ *
+ * @license MIT (https://raw.github.com/jacquesbh/jbh_homepage/master/LICENSE)
+ * @author Jacques Bodin-Hullin <jacques@bodin-hullin.net>
+ * @category Jbh
+ * @package Jbh_Homepage
+ * @copyright Copyright (c) 2012 Jacques Bodin-Hullin (http://jacques.sh/)
+ */
+-->
+<config>
+    <modules>
+        <Jbh_Homepage>
+            <version>0.1.0</version>
+            <!-- FYI only -->
+            <depends>
+                <Mage_Page />
+                <Mage_Cms />
+            </depends>
+        </Jbh_Homepage>
+    </modules>
+    <global>
+        <page>
+            <layouts>
+                <homepage module="jbh_homepage">
+                    <label>Homepage</label>
+                    <template>page/homepage.phtml</template>
+                    <layout_handle>page_homepage</layout_handle>
+                </homepage>
+            </layouts>
+        </page>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <jbh_homepage>
+                    <file>jbh_homepage.xml</file>
+                </jbh_homepage>
+            </updates>
+        </layout>
+    </frontend>
+</config>

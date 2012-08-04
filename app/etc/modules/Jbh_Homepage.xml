@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * This file is part of Jbh_Homepage for Magento.
+ *
+ * @license MIT (https://raw.github.com/jacquesbh/jbh_homepage/master/LICENSE)
+ * @author Jacques Bodin-Hullin <jacques@bodin-hullin.net>
+ * @category Jbh
+ * @package Jbh_Homepage
+ * @copyright Copyright (c) 2012 Jacques Bodin-Hullin (http://jacques.sh/)
+ */
+-->
+<config>
+    <modules>
+        <Jbh_Homepage>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Page />
+                <Mage_Cms />
+            </depends>
+        </Jbh_Homepage>
+    </modules>
+</config>
