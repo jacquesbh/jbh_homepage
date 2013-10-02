@@ -1,4 +1,4 @@
-/app/code/community/Jbh/Homepage/etc/config.xml                     /app/code/community/Jbh/Homepage/etc/config.xml
-/app/design/frontend/base/default/layout/jbh_homepage.xml           /app/design/frontend/base/default/layout/jbh_homepage.xml
-/app/design/frontend/base/default/template/page/homepage.phtml      /app/design/frontend/base/default/template/page/homepage.phtml
-/app/etc/modules/Jbh_Homepage.xml                                   /app/etc/modules/Jbh_Homepage.xml
+app/code/community/Jbh/Homepage/etc/config.xml                      app/code/community/Jbh/Homepage/etc/config.xml
+app/design/frontend/base/default/layout/jbh_homepage.xml            app/design/frontend/base/default/layout/jbh_homepage.xml
+app/design/frontend/base/default/template/page/homepage.phtml       app/design/frontend/base/default/template/page/homepage.phtml
+app/etc/modules/Jbh_Homepage.xml                                    app/etc/modules/Jbh_Homepage.xml
