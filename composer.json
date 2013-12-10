@@ -1,0 +1,18 @@
+{
+    "name": "jacquesbh/jbh_homepage",
+    "type": "magento-module",
+    "license": "MIT Public License",
+    "version": "0.1.0",
+    "homepage": "https://github.com/jacquesbh/jbh_homepage",
+    "description": "Magento extension to change the layout of the homepage.",
+    "authors": [
+        {
+            "name": "Jacques Bodin-Hullin",
+            "email": "j.bodinhullin@monsieurbiz.com",
+            "homepage": "http://monsieurbiz.com/"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
